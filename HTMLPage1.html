@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Static Web Page</title>
+
+    <style>
+        #main {
+            
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #headerdiv {
+            
+            font-size: 20pt;
+            color: dodgerblue;
+            font-weight: bold;
+        }
+
+        #bodydiv {
+            
+            display: flex;
+            flex-direction: row;
+        }
+
+        #newsdiv {
+            background-color: #EDEDED;
+        }
+
+        #footerdiv {
+            background-color: #faf7f7;
+            color: dimgray;
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #leftdiv {
+           
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #rightdiv {
+
+            /*width:800px;*/
+            flex-grow: 1;
+        }
+
+       
+
+        #leftdiv {
+            
+            width: 400px;
+        }
+        #biodiv {
+            
+            
+        }
+        #interestdiv {
+        }
+        #educationdive {
+        
+        
+        
+        }
+        #lowdiv {
+
+        display:flex;
+        flex-direction:row;
+        
+        }
+    </style>
+</head>
+<body>
+
+    <div id="main">
+        <div id="headerdiv">
+            Jason Walker's Website
+        </div>
+        <div id="bodydiv">
+
+            <div id="leftdiv">
+                <div id="imagediv"><img style="width:200px;border-radius:50%;" src="static/imgs/head1.png" /></div>
+                <div style="font-weight:bold;font-size:30px;" id="namediv">Jason Walker</div>
+                <div >Student in Management Information Systems</div>
+                <div >The University of Oklahoma</div>
+                <div >
+                    <!--<a href="noturavgj@ou.edu" target="_blank"><img style="width:30px;" src="static/imgs/email.png"</a>
+                    <a href="https://www.linkedin.com/" target="_blank"><img style="width:30px;" src="static/imgs/linkedin.png"</a>
+                    <a href="https://twitter.com/" target="_blank"><img style="width:30px;" src="static/imgs/twitter.png"</a>
+                    <a href="https://www.instagram.com" target="_blank"><img style="width:30px;" src="static/imgs/instagram.png"</a>-->
+                </div>
+
+            </div>
+        <div id="rightdiv">
+            <div id="biodiv">
+                <span style="font-size:30px;font-weight:bold;">Biography</span>
+
+                <p>
+                    I am a Senior student in Management Information Systems at The University of Oklahoma. I am on the 2022/2023 job market.
+                </p>
+                <p>
+                    My study focuses on data analytics and I am good at programming (Console, Desktop and Web Applications) and databases management.
+                </p>
+                <p style="margin:0;">
+                    For more information, please refer to my <a href="static/files/cv.pdf" target="_blank">CV</a>.
+                </p>
+            </div>
+            <div id="lowdiv">
+               
+
+                <div id="interestdiv">
+
+                    <span style="font-size:30px;font-weight:bold;">Interests</span>
+
+                    <ol>
+                        <li>Analyst/Programmer</li>
+                        <li>
+                            Business Analyst
+                        </li>
+                        <li>
+                            Database Administration
+                        </li>
+                        <li>
+                            Web Developer
+                        </li>
+                        <li>Data Scientists</li>
+                    </ol>
+
+                </div>
+                <div id="educationdive">
+                   
+
+                    <span style="font-size:30px;font-weight:bold;">Education</span>
+
+                    <ul>
+                        <li>
+                                                        M.S. in Management Information Systems, 2024 <br />
+                            The University of Oklahoma
+                        </li>
+                        <li>
+                            B.E. in Management Information Systems, 2022<br />
+                            The University of Oklahoma
+
+                        </li>
+
+                    </ul>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        </div>
+        <div id="newsdiv">
+            <span style="font-size:30px;font-weight:bold;">Recent News</span>
+            <ul style="margin:0;">
+                <li>Learning C# Web Application Design</li>
+                <li>Learning C# EF</li>
+
+            </ul>
+
+
+
+        </div>
+        <div id="footerdiv">
+            Designed and Published by Jason Walker
+        </div>
+
+
+    </div>
+
+
+</body>
+</html>
